@@ -50,4 +50,4 @@ Web Platform Accounts
 
 - [LinkedIn](https://www.linkedin.com/in/rajan-paul-francisco-5241ba278/)
 
-- [ResumeLink by Jobs180](https://jobseekers.jobs180.com/resume/resumelink#[object%20Object])
+- [ResumeLink by Jobs180](https://franciscorajan.jobs180.com/)
