@@ -1,0 +1,70 @@
+@media screen {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+  }
+
+  body {
+    min-height: 100vh;
+    background-image: url('images/sky.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+
+  .header {
+    position: fixed; /* Fix the header to the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: rgba(135, 135, 135, 0.1); /* Use rgba for transparency */
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(3px);
+    border: 2px solid rgba(110, 110, 110, 0.2);
+  }
+
+  .header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -200%;
+    width: 200%; /* Make it twice the width to ensure smooth transition */
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    transition: left .6s ease-in-out;
+  }
+
+  .header:hover::before {
+    left: 100%;
+  }
+
+  i {
+    margin-right: 10px;
+    font-size: 3svh;
+  }
+
+  #authorTitle {
+    color: aliceblue;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+  }
+
+  nav a {
+    color: azure;
+    text-decoration: none;
+    margin-left: 60px;
+    font-size: 18px;
+    transition: color 0.2s ease, font-size 0.2s ease; /* Apply transition to both properties */
+  }
+
+  nav a:hover {
+    color: #4269d6;
+    font-size: 20px;
+  }
+}
