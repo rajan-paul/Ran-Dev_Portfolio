@@ -16,7 +16,7 @@ This is a simple informative page that shows my projects/exercises and this incl
 
 ### Screenshot
 
-![](images/Screenshot-desktop.png)
+![](images/mobile-screenshot.png)
 
 ### Built with
 

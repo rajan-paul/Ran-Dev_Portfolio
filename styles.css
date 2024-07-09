@@ -22,9 +22,10 @@
     z-index: 1;
     font-size: 140px;
     margin-bottom: 7dvh;
-    stroke: rgb(253, 0, 0);
+    opacity: 70%;
+    /* stroke: rgb(253, 0, 0);
     fill-opacity: 0;
-    stroke-width: 10px;
+    stroke-width: 10px; */
   }
 
   .header {
