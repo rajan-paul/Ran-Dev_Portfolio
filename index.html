@@ -3,23 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rajan | Information page</title>
+    <title>Rajan | Information Page</title>
     <link rel="stylesheet" href="styles.css">
-
     <script src="https://kit.fontawesome.com/bc71daa1ad.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    </style>
 </head>
-
-<body>
     <header class="header">
-        <a href="index.html" id="authorTitle">
-            <i class="fa-regular fa-moon"></i>
-            RAN Dev
-        </a>
-
         <nav class="navbar">
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="#"><i class="fa-regular fa-circle-question"></i>About</a>
+            <a href="#"><i class="fa-regular fa-message"></i>Contact</a>
         </nav>
     </header>
+    <div class="icon"><i class="fa-sharp fa-regular fa-sun fa-spin"></i></div>
+    <div class="container">
+        <section id="aboutIntro">
+            <h1 id="typewriter"></h1>
+            <p>I’m 22-year-old, pursuing the world of frontend development. 
+                I found a passion for programming after discovering its wonders...</p>
+        </section>
+        <section class="projects">
+            <h2>Stuff I've Worked On</h2>
+            <div class="grid">
+                <div class="card">XO Rumble</div>
+                <div class="card">Bogetta</div>
+                <div class="card">Bitcoin Game</div>
+                <div class="card">Chat App</div>
+                <div class="card">Netflix Clone</div>
+                <div class="card">Instagram Clone</div>
+            </div>
+        </section>
+    </div>
+    <hr />
+    <footer>
+        You can contact me
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
