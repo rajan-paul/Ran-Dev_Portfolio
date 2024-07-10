@@ -105,12 +105,12 @@
     top: 20px; /* Space from the top */
     z-index: 2;
     margin: 0 auto;
-    width: 60%; /* Adjust width as needed */
+    width: 70%; /* Adjust width as needed */
     background-color: rgba(6, 31, 32, 0.3); /* Use rgba for transparency */
     backdrop-filter: blur(2px);
     border: 2px solid rgba(255, 210, 221, 0.045);
     border-radius: 20px;
-    padding: 5px 7px; /* Padding for the header */
+    padding: 5px 3px; /* Padding for the header */
     text-align: center; /* Center the content */
     margin-bottom: 20dvh;
   }
@@ -139,9 +139,10 @@
   }
 
   nav a:hover {
-    color: #fd92a5;
-    font-size: 14px;
+    color: #ffffff;
+    font-size: 15px;
     font-weight: bold;
+    text-decoration: wavy;
   }
 
   .container {
