@@ -10,35 +10,55 @@
         @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
     </style>
 </head>
-    <header class="header">
-        <nav class="navbar">
-            <a href="#"><i class="fa-regular fa-circle-question"></i>About</a>
-            <a href="#contacts"><i class="fa-regular fa-message"></i>Contact</a>
-        </nav>
-    </header>
-    <div class="icon"><i class="fa-sharp fa-regular fa-sun fa-spin"></i></div>
-    <div class="container">
-        <section id="aboutIntro">
-            <h1 id="typewriter"></h1>
-            <p>I’m 22-year-old, pursuing the world of frontend development. 
-                I found a passion for programming after discovering its wonders...</p>
-        </section>
-        <section class="projects">
-            <h2>Stuff I've Worked On</h2>
-            <div class="grid">
-                <div class="card">XO Rumble</div>
-                <div class="card">Bogetta</div>
-                <div class="card">Bitcoin Game</div>
-                <div class="card">Chat App</div>
-                <div class="card">Netflix Clone</div>
-                <div class="card">Instagram Clone</div>
-            </div>
-        </section>
+<body>
+    <div class="loading-screen">
+        <div class="dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        <div class="loading-bar-container">
+            <div class="loading-bar"></div>
+        </div>
     </div>
-    <hr />
-    <footer id="contacts">
-        You can contact me
-    </footer>
+
+    <div class="main-content" style="display: none;">
+        <header class="header">
+            <nav class="navbar">
+                <a href="#"><i class="fa-regular fa-circle-question"></i>About</a>
+                <a href="#contacts"><i class="fa-regular fa-message"></i>Contact</a>
+            </nav>
+        </header>
+        <div class="container">
+            <section id="aboutIntro">
+                <h1 id="typewriter"></h1>
+                <p>I’m 22-year-old, pursuing the world of frontend development. 
+                    I found a passion for programming after discovering its wonders...</p>
+            </section>
+            <section class="projects">
+                <h2>Stuff I've Worked On</h2>
+                <div class="grid">
+                    <div class="card">QueueVista</div>
+                    <div class="card">QR Code Holder</div>
+                    <div class="card">To-Do List</div>
+                    <div class="card">Kiosk Casa System</div>
+                    <div class="card">Instagram Clone</div>
+                </div>
+            </section>
+        </div>
+        <hr />
+        <footer class="footer">
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+
+            </div>
+            <div class="copyright">
+                © 2024 Personal Portfolio. All rights reserved.
+            </div>
+        </footer>
+    </div>
 
     <script src="app.js"></script>
 </body>

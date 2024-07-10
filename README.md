@@ -15,8 +15,11 @@ This is a display of personal information and projects done/contributed.
 This is a simple informative page that shows my projects/exercises and this includes the contact links.
 
 ### Screenshot
-
+Mobile
 ![](images/mobile-screenshot.png)
+
+Larger Screens
+![](images/larger-screen.png)
 
 ### Built with
 
@@ -24,7 +27,6 @@ This is a simple informative page that shows my projects/exercises and this incl
 - CSS custom properties
 - Flexbox
 - Responsive characteristic
-- GSAP
 - CSS Animation
 - Basic JS animation
 
