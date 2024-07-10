@@ -8,7 +8,7 @@
 
   body {
     min-height: 100svh;
-    background-image: url('images/bg_pattern2.jpg');
+    background-image: url('images/ss-version.png');
     background-size: cover;
     background-position: center;
     color: white;
@@ -16,10 +16,14 @@
     flex-direction: column;
     justify-content: space-between;
   }
+  
+  body {
+    scroll-behavior: smooth;
+  }
 }
 
 /* MOBILE CSS */
-@media only screen and (min-width: 300px) {
+@media only screen and (max-width: 767px) {
 
   /* SPLASHSCREEN CSS */
   .loading-screen {
@@ -32,7 +36,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(34, 3, 19, 0.3);
+    background-color: rgba(23, 0, 4, 0.8);
     z-index: 1000;
     text-align: center;
   }
@@ -47,7 +51,7 @@
     width: 15px;
     height: 15px;
     margin: 0 5px;
-    background-color: #00bcd4;
+    background-color: #b9869c;
     border-radius: 50%;
     animation: bounce 1.2s infinite;
   }
@@ -72,7 +76,7 @@
   .loading-bar-container {
     width: 80%;
     height: 30px;
-    border: 2px solid #47043d;
+    border: 2px solid #48232a;
     border-radius: 15px;
     overflow: hidden;
     margin: 0 auto;
@@ -81,7 +85,7 @@
   .loading-bar {
     height: 100%;
     width: 0;
-    background-color: #00bcd4;
+    background-color: #b9869c;
     border-radius: 15px 0 0 15px;
     animation: loading 5s forwards;
   }
@@ -248,7 +252,7 @@ footer {
 }
 
 /* LARGER SCREENS THAN MOBILE CSS */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 767px) and (max-width: 1023px) {
   .header {
     position: sticky;
     top: 20px; /* Space from the top */
